@@ -36,6 +36,19 @@ h1 {
     color: #007bff;
 }
 
+/* Ajoutez ces styles à votre fichier CSS */
+
+#a-propos {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#a-propos h2 {
+    color: #007bff;
+}
+
+
 p {
     line-height: 1.6;
 }
