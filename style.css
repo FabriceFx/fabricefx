@@ -38,6 +38,16 @@ h1 {
 
 /* Ajoutez ces styles à votre fichier CSS */
 
+#codes {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#codes h2 {
+    color: #007bff;
+}
+
 #a-propos {
     background-color: #f8f8f8;
     padding: 20px;
