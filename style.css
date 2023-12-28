@@ -48,6 +48,11 @@ h1 {
     color: #007bff;
 }
 
+#contact {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+}
 
 p {
     line-height: 1.6;
