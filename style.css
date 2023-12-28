@@ -54,6 +54,10 @@ h1 {
     margin-top: 20px;
 }
 
+#contact h2 {
+    color: #007bff;
+}
+
 p {
     line-height: 1.6;
 }
