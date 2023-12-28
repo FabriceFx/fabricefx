@@ -48,7 +48,7 @@ h1 {
 }
 
 #codes li {
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Ajout de margin-bottom pour créer un saut de ligne entre chaque projet */
 }
 
 #codes li a {
