@@ -120,6 +120,18 @@ h1 {
     color: #007bff;
 }
 
+#liens table {
+    width: 100%;
+    border-collapse: collapse;
+    argin-top: 10px;
+}
+
+#liens th, #liens td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
 #remerciements {
     background-color: #f8f8f8;
     padding: 20px;
