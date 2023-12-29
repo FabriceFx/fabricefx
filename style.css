@@ -44,13 +44,16 @@ h1 {
     padding: 20px;
 }
 
+#codes h2 {
+    color: #007bff;
+}
 #codes ul {
     list-style-type: none;
     padding: 0;
 }
 
 #codes li {
-    margin-bottom: 20px; /* Ajout de margin-bottom pour créer un saut de ligne entre chaque projet */
+    margin-bottom: 30px; /* Ajout de margin-bottom pour créer un saut de ligne entre chaque projet */
 }
 
 #codes li a {
