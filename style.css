@@ -79,6 +79,27 @@ h1 {
     color: #007bff;
 }
 
+        #codes {
+            margin-top: 20px;
+        }
+
+        #codes table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        #codes th, #codes td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        #codes th {
+            background-color: #007bff;
+            color: white;
+        }
+
 #contact {
     background-color: #f8f8f8;
     padding: 20px;
