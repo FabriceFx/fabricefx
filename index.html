@@ -78,6 +78,17 @@
         <h2>Contact</h2>
         <p>Vous pouvez me contacter sur l'adresse contact[at]faucheux.bzh</p>
     </section>
-
+    
+    <section id="remerciements">
+        <h2>Faire un don</h2>
+        <p>Si vous avez trouvé ces informations utiles, vous pouvez faire un don pour mon travail :</p>
+        <button onclick="redirigerVersPayPal()">Faire un don via PayPal</button>
+    </section>
+    <script>
+        function redirigerVersPayPal() {
+            // Redirigez l'utilisateur vers la page de paiement PayPal
+            window.location.href = 'https://www.paypal.com/paypalme/my/settings?flow=cmV0dXJuVXJsPWh0dHBzOi8vd3d3LnBheXBhbC5jb20vbXlhY2NvdW50L3RyYW5zZmVyL2hvbWVwYWdlL3JlcXVlc3QmY2FuY2VsVXJsPWh0dHBzOi8vd3d3LnBheXBhbC5jb20vbXlhY2NvdW50L3RyYW5zZmVyL2hvbWVwYWdlL3JlcXVlc3Q=';
+        }
+    </script>    
 </body>
 </html>
