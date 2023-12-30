@@ -100,6 +100,16 @@ h1 {
     color: white;
 }
 
+#workspace {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#workspace h2 {
+    color: #4285F4;
+}
+
 #contact {
     background-color: #f8f8f8;
     padding: 20px;
