@@ -163,6 +163,10 @@ h1 {
     font-size: 12px;
 }
 
+ul {
+    line-height: 1.6;
+}
+
 p {
     line-height: 1.6;
 }
