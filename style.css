@@ -106,6 +106,10 @@ h1 {
     margin-top: 20px;
 }
 
+#workspace li a {
+    line-height: 1.6;
+}
+
 #workspace h2 {
     color: #4285F4;
 }
@@ -147,15 +151,6 @@ h1 {
     color: white;
 }
 
-#remerciements {
-    background-color: #f8f8f8;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-#remerciements h2 {
-    color: #4285F4;
-}
 
 #footer {
     background-color: #f0f0f0;
