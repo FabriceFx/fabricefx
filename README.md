@@ -1,3 +1,4 @@
+# fabricefx
 ### Bonjour \! 👋 Je suis Fabrice Faucheux
 
 <p align="center">
@@ -47,3 +48,6 @@ I share my knowledge, tips, and comprehensive tutorials on Apps Script and produ
 
 ➡️ **Visit [L'Atelier Informatique](https://atelier-informatique.com/) to learn more\!** (Content is primarily in French)
 
+
+---
+<p align="center"><a href="https://faucheux.bzh" target="_blank" style="color: inherit; text-decoration: none;">&lt;&gt; par Fabrice Faucheux</a></p>
