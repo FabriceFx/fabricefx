@@ -1,53 +1,57 @@
-# fabricefx
-### Bonjour \! 👋 Je suis Fabrice Faucheux
+### Fabrice Faucheux — sécurité et administration Google Workspace
 
-<p align="center">
-  <a href="https://atelier-informatique.com/">
-    <img src="https://img.shields.io/badge/Mon_Blog-L%27Atelier_Informatique-blue?style=for-the-badge&logo=wordpress" alt="Lien vers le blog L'Atelier Informatique">
-  </a>
-</p>
+[Français](#français) · [English](#english)
 
------
+<a name="français"></a>
 
-### 🇫🇷 Version Française
+Responsable applicatif sur la plateforme Google Workspace depuis 15 ans, parc de 8 500 comptes.
+**Google Product Expert Platine.**
 
-Je suis un développeur passionné par l'automatisation et l'écosystème Google Workspace. Ma spécialité est le **Google Apps Script**.
+Je rends visible ce que la console d'administration Google Workspace montre mal : les
+applications tierces branchées sur les comptes, les partages Drive qui débordent, les
+écarts au référentiel CIS, l'usurpation de domaine. Puis j'outille la correction, sans
+serveur, en Google Apps Script.
 
-Mon objectif est de transformer des processus manuels et répétitifs en solutions automatisées, élégantes et efficaces. Si ça tourne sur Google (Sheets, Docs, Drive, Forms, Gmail...), je peux probablement l'automatiser \!
+#### Projets
 
-#### 💡 Ce que je fais
+| Projet | Ce qu'il fait |
+|---|---|
+| [cis-benchmarks](https://github.com/FabriceFx/cis-benchmarks) | Audit automatisé et registre de conformité au CIS Google Workspace Foundations Benchmark v1.4 |
+| [workspace-oauth-audit](https://github.com/FabriceFx/workspace-oauth-audit) | Inventaire des applications tierces et de l'IA fantôme : portées, qui les a autorisées, volume réellement extrait |
+| [gdrive-shares-audit](https://github.com/FabriceFx/gdrive-shares-audit) | Vue de chaque utilisateur sur ses partages Drive, Mon Drive et Drives partagés |
+| [dmarc-sheets](https://github.com/FabriceFx/dmarc-sheets) | Sonde et tableau de bord DMARC dans Google Sheets, sans serveur |
+| [jsm-google-workspace-gateway](https://github.com/FabriceFx/jsm-google-workspace-gateway) | Opérations d'administration Workspace déclenchées depuis Jira Service Management |
+| [TempoSheet](https://github.com/FabriceFx/TempoSheet) | Feuilles d'heures générées depuis Google Agenda |
 
-  * Automatisation de tâches dans **Google Sheets** (génération de rapports, tri de données, envoi d'emails).
-  * Création de workflows personnalisés entre **Google Forms**, **Sheets** et **Gmail**.
-  * Développement d'applications web simples (UI) hébergées dans l'écosystème Google.
-  * Intégration d'API tierces avec Google Workspace.
+#### Ma façon de travailler
 
-#### ✍️ Mon Blog
+| Principe | Pourquoi |
+|---|---|
+| Moindre privilège | Chaque portée OAuth demandée est justifiée ; quand elle ne se décline pas en lecture seule, la documentation le dit |
+| Plan puis application | Toute action irréversible est d'abord écrite dans un plan relu, avec le nombre exact d'objets concernés |
+| Testé hors de Google | Un banc d'essai Node rejoue les données réelles des API, avant tout déploiement |
+| Rapport honnête | Un fait et une présomption ne partagent jamais une colonne ; une case vide veut dire « non mesuré » |
 
-Je partage mes connaissances, mes astuces et des tutoriels complets sur Apps Script et la productivité sur mon blog.
+#### Me trouver
 
-➡️ **Visitez [L'Atelier Informatique](https://atelier-informatique.com/) pour en savoir plus \!**
-
-
-### 🇬🇧 English Version
-
-I'm a developer passionate about automation and the Google Workspace ecosystem. My specialty is **Google Apps Script**.
-
-My goal is to transform manual, repetitive processes into elegant, efficient, and automated solutions. If it runs on Google (Sheets, Docs, Drive, Forms, Gmail...), I can probably automate it\!
-
-#### 💡 What I do
-
-  * Automating tasks in **Google Sheets** (report generation, data sorting, email sending).
-  * Creating custom workflows between **Google Forms**, **Sheets**, and **Gmail**.
-  * Developing simple web applications (UIs) hosted within the Google ecosystem.
-  * Integrating third-party APIs with Google Workspace.
-
-#### ✍️ My Blog
-
-I share my knowledge, tips, and comprehensive tutorials on Apps Script and productivity on my blog.
-
-➡️ **Visit [L'Atelier Informatique](https://atelier-informatique.com/) to learn more\!** (Content is primarily in French)
-
+[faucheux.bzh](https://faucheux.bzh) · [LinkedIn](https://www.linkedin.com/in/fabricefaucheux/) · [L'Atelier Informatique](https://atelier-informatique.com/) (blog)
 
 ---
-<p align="center"><a href="https://faucheux.bzh" target="_blank" style="color: inherit; text-decoration: none;">&lt;&gt; par Fabrice Faucheux</a></p>
+
+<a name="english"></a>
+
+### English
+
+Google Workspace application owner for 15 years, 8,500 accounts.
+**Platinum Google Product Expert.**
+
+I make visible what the Google Workspace admin console shows poorly: third-party apps
+connected to user accounts, overexposed Drive shares, gaps against the CIS benchmark,
+domain spoofing. Then I build the remediation tooling, serverless, in Google Apps Script.
+
+**Projects** — see the table above: CIS compliance audit, third-party app and shadow-AI
+audit, Drive shares audit, DMARC dashboard, Jira Service Management gateway, Calendar
+timesheets.
+
+**How I work** — least privilege, plan before apply, tested outside Google, honest reporting.
+
